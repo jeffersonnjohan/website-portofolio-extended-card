@@ -24,8 +24,8 @@
             <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/organization">Organization</a></span> </div>
         </div>
         <div class="w-full text-center py-10 px-[200px]">
-            <h1 class="mt-[50px] text-4xl font-bold">Hello World!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem.</p>
+            <h1 class="mt-[50px] text-4xl font-bold">{{ $headline }}</h1>
+            <p>{{ $headlineDescription }}</p>
         </div>
     </div>
 
