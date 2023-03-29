@@ -31,5 +31,29 @@
 
     @yield('content')
 
+    {{-- Footer --}}
+    <div class="w-full mb-40 h-[250px] bg-black flex text-brown1">
+        {{-- Image --}}
+        <div class="w-[30%] h-full border-r-2 border-brown1">
+
+        </div>
+        
+        <div class="w-[20%] h-full border-r-2 border-brown1">
+            <ul class="h-full">
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/" class="hover:scale-105 hover:text-white"> Introduction </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/academic" class="hover:scale-105 hover:text-white"> Academic </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/hobby" class="hover:scale-105 hover:text-white"> Hobby </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/contact" class="hover:scale-105 hover:text-white"> Contact </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/organization" class="hover:scale-105 hover:text-white"> Organization </a></li>
+            </ul>
+        </div>
+        <div class="w-[25%] h-full border-r-2 border-brown1">
+            
+        </div>
+        <div class="w-[25%] h-full">
+
+        </div>
+    </div>
+
 </body>
 </html>
