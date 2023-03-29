@@ -1,5 +1,5 @@
 @extends('template.template')
 
 @section('content')
-askhas    
+askhas
 @endsection

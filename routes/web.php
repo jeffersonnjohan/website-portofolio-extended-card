@@ -14,5 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('introduction', [
+        "title" => "Introduction"
+    ]);
+});
+
+Route::get('/academic', function () {
+    return view('academic', [
+        "title" => "Academic"
+    ]);
+});
+
+Route::get('/hobby', function () {
+    return view('hobby', [
+        "title" => "Hobby"
+    ]);
+});
+
+Route::get('/contact', function () {
+    return view('contact', [
+        "title" => "Contact"
+    ]);
+});
+
+Route::get('/organization', function () {
+    return view('organization', [
+        "title" => "Organization"
+    ]);
 });
