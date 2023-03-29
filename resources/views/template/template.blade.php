@@ -32,10 +32,12 @@
     @yield('content')
 
     {{-- Footer --}}
-    <div class="w-full mb-40 h-[250px] bg-black flex text-brown1">
+    <div class="w-full h-[250px] bg-black flex text-brown4">
         {{-- Image --}}
         <div class="w-[30%] h-full border-r-2 border-brown1">
-
+            <img src="img/profileThumbnail.png" alt="Thumbnail Image" class="w-2/5 rounded shadow shadow-slate-100 m-auto mt-4">
+            <p class="text-center mt-2 font-bold">Jefferson Johan</p>
+            <p class="text-center">2502041224</p>
         </div>
         
         <div class="w-[20%] h-full border-r-2 border-brown1">
@@ -47,11 +49,13 @@
                 <li class="w-full h-1/5 flex pl-5 items-center"><a href="/organization" class="hover:scale-105 hover:text-white"> Organization </a></li>
             </ul>
         </div>
-        <div class="w-[25%] h-full border-r-2 border-brown1">
-            
+        <div class="w-[25%] h-full">
+            <a href="https://www.linkedin.com/in/jeffersonnjohan/"><img src="img/linkedIn.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
+            <p class="text-center mt-7 font-bold"><a href="https://www.linkedin.com/in/jeffersonnjohan/" class="hover:scale-105">Connect Me!</a></p>
         </div>
         <div class="w-[25%] h-full">
-
+            <a href="https://github.com/jeffersonnjohan"><img src="img/github.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
+            <p class="text-center mt-7 font-bold"><a href="https://github.com/jeffersonnjohan" class="hover:scale-105">Check My Project!</a> </p>
         </div>
     </div>
 
