@@ -13,7 +13,7 @@
 <body>
     
     {{-- Navbar --}}
-    <div class="navbar bg-[url('https://source.unsplash.com/1200x400?background-pink')] w-full h-[500px] bg-cover bg-fixed text-brown1">
+    <div class="navbar bg-[url('https://source.unsplash.com/1200x400?background-pink')] w-full h-[500px] bg-cover bg-fixed text-brown1 font-poppins">
     {{-- <div class="navbar bg-brown3 container h-[500px] bg-cover text-brown1"> --}}
         <div class="w-full h-10"></div>
         <div class="w-full h-20 flex justify-center sticky top-0">
@@ -32,10 +32,10 @@
     @yield('content')
 
     {{-- Footer --}}
-    <div class="w-full h-[250px] bg-black flex text-brown4">
+    <div class="w-full h-[250px] bg-black flex text-brown4 font-poppins">
         {{-- Image --}}
         <div class="w-[30%] h-full border-r-2 border-brown1">
-            <img src="img/profileThumbnail.png" alt="Thumbnail Image" class="w-2/5 rounded shadow shadow-slate-100 m-auto mt-4">
+            <img src="/img/profileThumbnail.png" alt="Thumbnail Image" class="w-2/5 rounded shadow shadow-slate-100 m-auto mt-4">
             <p class="text-center mt-2 font-bold">Jefferson Johan</p>
             <p class="text-center">2502041224</p>
         </div>
@@ -50,11 +50,11 @@
             </ul>
         </div>
         <div class="w-[25%] h-full">
-            <a href="https://www.linkedin.com/in/jeffersonnjohan/"><img src="img/linkedIn.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
+            <a href="https://www.linkedin.com/in/jeffersonnjohan/"><img src="/img/linkedIn.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
             <p class="text-center mt-7 font-bold"><a href="https://www.linkedin.com/in/jeffersonnjohan/" class="hover:scale-105">Connect Me!</a></p>
         </div>
         <div class="w-[25%] h-full">
-            <a href="https://github.com/jeffersonnjohan"><img src="img/github.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
+            <a href="https://github.com/jeffersonnjohan"><img src="/img/github.png" alt="Thumbnail Image" class="w-2/5 rounded-[10%] m-auto mt-8 border-2"></a>
             <p class="text-center mt-7 font-bold"><a href="https://github.com/jeffersonnjohan" class="hover:scale-105">Check My Project!</a> </p>
         </div>
     </div>
