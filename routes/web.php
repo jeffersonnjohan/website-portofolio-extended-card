@@ -24,8 +24,8 @@ Route::get('/', function () {
 Route::get('/academic', function () {
     return view('academic', [
         "title" => "Academic",
-        "headline" => "Hello World!",
-        "headlineDescription" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem."
+        "headline" => "Riwayat Akademik-ku",
+        "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe"
     ]);
 });
 
@@ -37,9 +37,9 @@ Route::get('/hobby', function () {
     ]);
 });
 
-Route::get('/contact', function () {
-    return view('contact', [
-        "title" => "Contact",
+Route::get('/project', function () {
+    return view('project', [
+        "title" => "Project",
         "headline" => "Hello World!",
         "headlineDescription" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem."
     ]);

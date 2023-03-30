@@ -19,9 +19,9 @@
         <div class="w-full h-20 flex justify-center sticky top-0">
             <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/">Introduction</a></span> </div>
             <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/academic">Academic</a></span> </div>
-            <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/hobby">Hobby</a></span> </div>
-            <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/contact">Contact</a></span> </div>
+            <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/project">Project</a></span> </div>
             <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/organization">Organization</a></span> </div>
+            <div class="p-3 text-center"><span class="drop-shadow-[0_2px_6px_rgba(0,0,0,1)] hover:text-brown1 hover:cursor-pointer hover:drop-shadow-[0_2px_6px_rgba(255,255,255,1)]"><a href="/hobby">Hobby</a></span> </div>
         </div>
         <div class="w-full text-center py-10 px-[200px]">
             <h1 class="mt-[50px] text-4xl font-bold">{{ $headline }}</h1>
@@ -44,9 +44,9 @@
             <ul class="h-full">
                 <li class="w-full h-1/5 flex pl-5 items-center"><a href="/" class="hover:scale-105 hover:text-white"> Introduction </a></li>
                 <li class="w-full h-1/5 flex pl-5 items-center"><a href="/academic" class="hover:scale-105 hover:text-white"> Academic </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/hobby" class="hover:scale-105 hover:text-white"> Hobby </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/contact" class="hover:scale-105 hover:text-white"> Contact </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/project" class="hover:scale-105 hover:text-white"> Project </a></li>
                 <li class="w-full h-1/5 flex pl-5 items-center"><a href="/organization" class="hover:scale-105 hover:text-white"> Organization </a></li>
+                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/hobby" class="hover:scale-105 hover:text-white"> Hobby </a></li>
             </ul>
         </div>
         <div class="w-[25%] h-full">
