@@ -67,8 +67,8 @@ Route::prefix('/academic')->group(function(){
 Route::get('/hobby', function () {
     return view('hobby', [
         "title" => "Hobby",
-        "headline" => "Hello World!",
-        "headlineDescription" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem."
+        "headline" => "Aktivitas Kesukaan-ku",
+        "headlineDescription" => "Jikalau kita memiliki kesamaan hobi, maka kita bisa dikatakan cocok. Hobi itu penting, untuk menjaga api kehidupan dan memberikan kebahagiaan di dalam jiwa"
     ]);
 });
 
