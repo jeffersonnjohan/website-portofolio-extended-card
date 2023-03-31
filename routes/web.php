@@ -21,14 +21,6 @@ Route::get('/', function () {
     ]);
 });
 
-// Route::get('/academic', function () {
-//     return view('academicSD', [
-//         "title" => "Academic",
-//         "headline" => "Riwayat Akademik-ku",
-//         "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe"
-//     ]);
-// });
-
 Route::prefix('/academic')->group(function(){
     Route::get('/sd', function(){
         return view('academicSD', [
@@ -83,8 +75,8 @@ Route::get('/hobby', function () {
 Route::get('/project', function () {
     return view('project', [
         "title" => "Project",
-        "headline" => "Hello World!",
-        "headlineDescription" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem."
+        "headline" => "Daftar Project-ku",
+        "headlineDescription" => "Mengerjakan project adalah hobi saya. Walau berat, namun setelah menyelesaikannya memberikan rasa puas yang setimpal. Bekerja sama dengan tim hebat memberikan hasil yang hebat pula."
     ]);
 });
 

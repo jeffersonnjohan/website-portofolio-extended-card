@@ -1,5 +1,10 @@
 @extends('template.template')
 
 @section('content')
-askhas
+
+{{-- Section Card --}}
+<div class="w-full">
+    <h1>My Hobbies</h1>
+</div>
+
 @endsection
