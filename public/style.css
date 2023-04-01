@@ -2,7 +2,7 @@
     background-image: url(img/profileImage.jpg);
 }
 
-div.menuActive{
+a div.menuActive{
     background-color: #8D7B68;
     color: #F1DEC9;
 }
