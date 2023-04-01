@@ -25,8 +25,9 @@ Route::prefix('/academic')->group(function(){
     Route::get('/sd', function(){
         return view('academicSD', [
             "title" => "Academic SD",
-            "headline" => "Riwayat Akademik-ku",
+            "headline" => "My Academic Journey",
             "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
+            "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "SD"
         ]);
     });
