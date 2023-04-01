@@ -82,9 +82,9 @@ Route::get('/project', function () {
 
 Route::get('/organization', function () {
     return view('organization', [
-        "title" => "Organization",
-        "headline" => "Hello World!",
-        "headlineDescription" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus tempore aspernatur nihil eius labore distinctio sit amet facilis. Nihil corrupti nemo qui id excepturi dolorum veniam deleniti libero autem."
+        "title" => "Organisasi",
+        "headline" => "Organisasi dan Sukarelawan",
+        "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan."
     ]);
 });
 
