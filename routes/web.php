@@ -64,6 +64,49 @@ Route::prefix('/academic')->group(function(){
     });
 });
 
+Route::prefix('/organization')->group(function(){
+    Route::get('/bgc', function(){
+        return view('organizationBGC', [
+            "title" => "BGC",
+            "headline" => "Organisasi dan Sukarelawan",
+            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "active" => "BGC"
+        ]);
+    });
+    Route::get('/signal', function(){
+        return view('organizationSignal', [
+            "title" => "SIGNAL",
+            "headline" => "Organisasi dan Sukarelawan",
+            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "active" => "SIGNAL"
+        ]);
+    });
+    Route::get('/spark', function(){
+        return view('organizationSpark', [
+            "title" => "SPARK",
+            "headline" => "Organisasi dan Sukarelawan",
+            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "active" => "SPARK"
+        ]);
+    });
+    Route::get('/yap', function(){
+        return view('organizationYAP', [
+            "title" => "You Are Precious",
+            "headline" => "Organisasi dan Sukarelawan",
+            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "active" => "YAP"
+        ]);
+    });
+    Route::get('/', function(){
+        return view('organizationBGC', [
+            "title" => "BGC",
+            "headline" => "Organisasi dan Sukarelawan",
+            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "active" => "BGC"
+        ]);
+    });
+});
+
 Route::get('/hobby', function () {
     return view('hobby', [
         "title" => "Hobby",
@@ -77,14 +120,6 @@ Route::get('/project', function () {
         "title" => "Project",
         "headline" => "Daftar Project-ku",
         "headlineDescription" => "Mengerjakan project adalah hobi saya. Walau berat, namun setelah menyelesaikannya memberikan rasa puas yang setimpal. Bekerja sama dengan tim hebat memberikan hasil yang hebat pula."
-    ]);
-});
-
-Route::get('/organization', function () {
-    return view('organization', [
-        "title" => "Organisasi",
-        "headline" => "Organisasi dan Sukarelawan",
-        "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan."
     ]);
 });
 
