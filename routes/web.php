@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('introduction', [
         "title" => "Introduction",
-        "headline" => "Hai, salam kenal!",
-        "headlineDescription" => "Anda yang datang ke sini pasti bukanlah karena iseng belaka. Selamat Anda sudah datang ke tempat yang benar untuk mengenal saya lebih dalam. Niscaya hidup Anda akan lebih bahagia."
+        "headline" => "Hi, nice to have you here!",
+        "headlineDescription" => "You are here isn't just a coincidence. Congratulation, you have privilege here in the right place to know me much deeper than everybody. Trust me, you life will be happier now and forever"
     ]);
 });
 
