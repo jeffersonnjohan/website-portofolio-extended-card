@@ -1,6 +1,6 @@
 # Jefferson's Portfolio Website
 
-Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning proje![enter image description here](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone1.png)ct for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
+Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning project for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
 
 > NIM  : 2502041224
 >Class : PPTI 12
