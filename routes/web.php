@@ -68,40 +68,40 @@ Route::prefix('/organization')->group(function(){
     Route::get('/bgc', function(){
         return view('organizationBGC', [
             "title" => "BGC",
-            "headline" => "Organisasi dan Sukarelawan",
-            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "headline" => "Organization dan Volunteer",
+            "headlineDescription" => "Life doesn't always need technical skills. In some occassions, i join organization to practice about soft skills that can help me soon in future",
             "active" => "BGC"
         ]);
     });
     Route::get('/signal', function(){
         return view('organizationSignal', [
             "title" => "SIGNAL",
-            "headline" => "Organisasi dan Sukarelawan",
-            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "headline" => "Organization dan Volunteer",
+            "headlineDescription" => "Life doesn't always need technical skills. In some occassions, i join organization to practice about soft skills that can help me soon in future",
             "active" => "SIGNAL"
         ]);
     });
     Route::get('/spark', function(){
         return view('organizationSpark', [
             "title" => "SPARK",
-            "headline" => "Organisasi dan Sukarelawan",
-            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "headline" => "Organization dan Volunteer",
+            "headlineDescription" => "Life doesn't always need technical skills. In some occassions, i join organization to practice about soft skills that can help me soon in future",
             "active" => "SPARK"
         ]);
     });
     Route::get('/yap', function(){
         return view('organizationYAP', [
             "title" => "You Are Precious",
-            "headline" => "Organisasi dan Sukarelawan",
-            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "headline" => "Organization dan Volunteer",
+            "headlineDescription" => "Life doesn't always need technical skills. In some occassions, i join organization to practice about soft skills that can help me soon in future",
             "active" => "YAP"
         ]);
     });
     Route::get('/', function(){
         return view('organizationBGC', [
             "title" => "BGC",
-            "headline" => "Organisasi dan Sukarelawan",
-            "headlineDescription" => "Hidup tidak selalu tentang belajar skill teknis. Pada beberapa kesempatan saya mengikuti organisasi untuk berlatih soft skill yang akan berguna kelak di masa depan.",
+            "headline" => "Organization dan Volunteer",
+            "headlineDescription" => "Life doesn't always need technical skills. In some occassions, i join organization to practice about soft skills that can help me soon in future",
             "active" => "BGC"
         ]);
     });
