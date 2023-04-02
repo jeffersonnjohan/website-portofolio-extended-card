@@ -119,8 +119,8 @@ Route::get('/hobby', function () {
 Route::get('/project', function () {
     return view('project', [
         "title" => "Project",
-        "headline" => "Daftar Project-ku",
-        "headlineDescription" => "Mengerjakan project adalah hobi saya. Walau berat, namun setelah menyelesaikannya memberikan rasa puas yang setimpal. Bekerja sama dengan tim hebat memberikan hasil yang hebat pula."
+        "headline" => "My Projects at Uni Life",
+        "headlineDescription" => "Doing the projects is my passion. Even though it was hard, but after finish it i feel satisfied with the result. Collaboration with great team will definitely give the best result."
     ]);
 });
 
