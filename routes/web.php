@@ -26,7 +26,6 @@ Route::prefix('/academic')->group(function(){
         return view('academicSD', [
             "title" => "Academic SD",
             "headline" => "My Academic Journey",
-            "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
             "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "SD"
         ]);
@@ -34,32 +33,32 @@ Route::prefix('/academic')->group(function(){
     Route::get('/smp', function(){
         return view('academicSMP', [
             "title" => "Academic SMP",
-            "headline" => "Riwayat Akademik-ku",
-            "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
+            "headline" => "My Academic Journey",
+            "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "SMP"
         ]);
     });
     Route::get('/sma', function(){
         return view('academicSMA', [
             "title" => "Academic SMA",
-            "headline" => "Riwayat Akademik-ku",
-            "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
+            "headline" => "My Academic Journey",
+            "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "SMA"
         ]);
     });
     Route::get('/kuliah', function(){
         return view('academicKuliah', [
             "title" => "Academic Kuliah",
-            "headline" => "Riwayat Akademik-ku",
-            "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
+            "headline" => "My Academic Journey",
+            "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "Kuliah"
         ]);
     });
     Route::get('/', function(){
         return view('academicSD', [
             "title" => "Academic SD",
-            "headline" => "Riwayat Akademik-ku",
-            "headlineDescription" => "Tak kenal maka tak sayang, Anda harus mengetahui latar belakang saya sebelum di PPTI 12 BCA. Tapi setelah kenal, jangan malah jadi sayang ya hehehe",
+            "headline" => "My Academic Journey",
+            "headlineDescription" => "I will tell you my story from primary school until now. Thankyou for my friends, teachers, and all people who are in my life journey. Without you all guys, i cannot stand here like now",
             "active" => "SD"
         ]);
     });

@@ -46,14 +46,14 @@
         </clipPath>
         </defs>
         </svg>
-    <p class="mb-8 text-justify">My role in this project is Backend Developer. My team in this project is Nicole Felice as Frontend Developer, Michael Baptista as UI/UX Designer, Charlene Jovannie and Jevent as Database Administrator. We finished this project in 4 months effective. You also can access this project on <a href="https://jualanyukkk.000webhostapp.com/" class="text-blue-100 underline">this link</a> </p>
+    <p class="mb-8 text-justify">My role in this project is Backend Developer. My team in this project is Nicole Felice as Frontend Developer, Michael Baptista as UI/UX Designer, Charlene Jovannie and Jevent as Database Administrator. We finished this project in 4 months effective. You also can access this project on <a href="https://jualanyukkk.000webhostapp.com/" class="text-blue-100 underline" target="_blank">this link</a> </p>
     <img src="/img/buAzaniJualanYuk.jpg" alt="Image 1" class = "w-1/2 m-auto mb-8">
 
     <p class="mb-8 text-justify">Praise the lord, Our team get achievement "Best Project Software Engineering PPTI 12" which is selected by voting our classmate & Ma'am Azani. This makes us very happy and recharge our energy to do other projects. Thankyou for my team, you all did your best!</p>
     
     <img src="/img/jualanYukHome.png" alt="Image 1" class = "w-1/2 m-auto mb-8">
     
-    <p class="mb-8 text-justify">This is our application home page. You can access many features. If you want to access this page you can type username = "akunBaru" and password = "123" in <a href="https://jualanyukkk.000webhostapp.com/" class="text-blue-100 underline">this link</a> </p>
+    <p class="mb-8 text-justify">This is our application home page. You can access many features. If you want to access this page you can type username = "akunBaru" and password = "123" in <a href="https://jualanyukkk.000webhostapp.com/" class="text-blue-100 underline" target="_blank">this link</a> </p>
     
 </div>
 
