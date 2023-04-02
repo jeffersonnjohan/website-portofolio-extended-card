@@ -13,7 +13,7 @@
                 <h2>Organisasi</h2>
             </div>
             {{-- Button Organisasi --}}
-            <a href="/organization/bgc">
+            <a href="/organization/bgc#content">
                 <div class="w-full p-2 border-b-2 border-x-2 border-brown1 hover:bg-brown1 hover:text-brown4 last:rounded-b-xl {{ $active == "BGC" ? "menuActive":"" }}">
                     <p>Big Goal Community</p>
                 </div>
@@ -27,17 +27,17 @@
                 <h2>Sukarelawan</h2>
             </div>
             {{-- Button Sukarelawan --}}
-            <a href="/organization/signal">
+            <a href="/organization/signal#content">
                 <div class="w-full p-2 border-b-2 border-x-2 border-brown1 hover:bg-brown1 hover:text-brown4 {{ $active == "SIGNAL" ? "menuActive":"" }}">
                     <p>Panitia Natal PPA/PPTI 2021</p><p> SIGNAL: Sie Public Relation</p>
                 </div>
             </a>
-            <a href="/organization/spark">
+            <a href="/organization/spark#content">
                 <div class="w-full p-2 border-b-2 border-x-2 border-brown1 hover:bg-brown1 hover:text-brown4 {{ $active == "SPARK" ? "menuActive":"" }}">
                     <p>Panitia Natal PPTI/PPBP 2021</p><p> SPARK: Sie Public Relation</p>
                 </div>
             </a>
-            <a href="/organization/yap">
+            <a href="/organization/yap#content">
                 <div class="w-full p-2 border-b-2 border-x-2 border-brown1 hover:bg-brown1 hover:text-brown4 rounded-b-xl {{ $active == "YAP" ? "menuActive":"" }}">
                     <p>Panitia Retreat PPTI/PPBP 2021 </p><p>You Are Precious: Sie Dana</p>
                 </div>
@@ -61,7 +61,7 @@
         </div>
     </div>
     {{-- Kanan --}}
-    <div class="w-2/3 p-5 overflow border-2 border-brown1 rounded-md">
+    <div id="content" class="w-2/3 p-5 overflow border-2 border-brown1 rounded-md">
         @yield('contentOrganization')
     </div>
 </div>
