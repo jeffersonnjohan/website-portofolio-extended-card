@@ -47,12 +47,22 @@ I want to share simplest way to run this website using Git Clone.
 # What's inside my website?
 I can divide my website to **5 main pages**:
 - Introduction
+>This page contains my biodata, motto, and my short journey. You can navigate to all pages with header or footer.
+
 ![Introduction](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/introductionn.png)
 - Academic
+> In this page, we can navigate to **4 sub pages**, Primary School Pages, Junior High School Pages, Senior High School Pages, and University Pages. Each of pages contain my story and journey until now. I use Route::prefix() in web.php to make it possible.
+
 ![Academic](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/academicc.png)
 - Project
+> This page contains my 2 biggest project. JualanYuk and Eyemorse. This page also link to my Github page.
+
 ![Project](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/projectt.png)
 - Organization
+> From this page, you can access **4 sub pages** of my experience in organization and volunteer. I tell my story and my role in each of pages.
+
 ![Organization](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/organizationn.png)
 - Hobby
+> This page is a kind of landing page, which we can navigate directly to section we want by clicking the menu on the top of page. There is **3 section** on this page: Chess, Badminton, and Cooking.
+ 
 ![Hobby](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/hobbyy.png)
