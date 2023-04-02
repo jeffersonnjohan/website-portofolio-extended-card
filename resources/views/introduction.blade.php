@@ -10,7 +10,7 @@
     </div>
     <div class="w-[60%] bg-brown4 h-full py-32 px-20">
         <h2 class="text-6xl font-bold mb-3">Jefferson Johan</h2>
-        <h3 class="text-xl mb-1">Palembang, 12 Februari 2004</h3>
+        <h3 class="text-xl mb-1">Palembang, February 12th of 2004</h3>
         <p >BCA IT Scholarship Program Batch 12</p>
     </div>
 </div>
