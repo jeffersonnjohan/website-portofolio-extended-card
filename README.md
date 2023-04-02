@@ -1,6 +1,6 @@
 # Jefferson's Portfolio Website
 
-Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning project for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
+Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning proje![enter image description here](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone1.png)ct for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
 
 > NIM  : 2502041224
 >Class : PPTI 12
@@ -20,13 +20,26 @@ Make sure your computer already installed [composer](https://getcomposer.org/dow
 
 # How to install and run my project on your PC?
 
-There is 2 simple ways to access my project
-
- 1. Via Git Clone
- 
+I want to share simplest way to run this website using Git Clone.
 
 > Remember, make sure your computer already installed **Git** and already **configured your Git & GitHub**
 
- - as
-
- 2. Via Download Zip
+ - First, you need to my project's url for cloning
+ ![Step 1](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone1.png)
+- Open your command prompt, cd your directory to the directory you want to run this project. Then type `git clone https://github.com/jeffersonnjohan/website-portofolio-laravel.git`
+![Step 2](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone2.png)
+- Type `cd website-portofolio-laravel`
+![Step 3](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone3.png)
+- Type `composer install`
+![Step 4](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone4.png)
+- Type `copy .env.example .env`
+![Step 5](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone5.png)
+- Type `php artisan key:generate`
+![Step 6](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone6.png)
+- Type `npm install`
+![Step 7](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone7.png)
+- Type `npm run dev`
+![Step 8](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone8.png)
+- Type `php artisan composer`
+![Step 9](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone9.png)
+- Done, open the link provided
