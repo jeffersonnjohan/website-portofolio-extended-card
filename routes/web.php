@@ -110,8 +110,8 @@ Route::prefix('/organization')->group(function(){
 Route::get('/hobby', function () {
     return view('hobby', [
         "title" => "Hobby",
-        "headline" => "Aktivitas Kesukaan-ku",
-        "headlineDescription" => "Jikalau kita memiliki kesamaan hobi, maka kita bisa dikatakan cocok. Hobi itu penting, untuk menjaga api kehidupan dan memberikan kebahagiaan di dalam jiwa"
+        "headline" => "My Favourite Activities",
+        "headlineDescription" => "During my leisure time, i often do something which can make me happy. Maintaining hobby is important to keep our soul and body alive perfectly."
     ]);
 });
 
