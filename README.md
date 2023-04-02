@@ -1,15 +1,15 @@
 # Jefferson's Portfolio Website
 
-Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning project for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
+Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning proje![enter image description here](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone1.png)ct for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
 
 > NIM  : 2502041224
 >Class : PPTI 12
 
 
 # Technology in My Website
-1. Laravel (PHP Framework)
+1. Laravel (PHP Framework)<br>
 ![Laravel Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/200px-Laravel.svg.png)
-2. Tailwind (CSS Framework)
+2. Tailwind (CSS Framework)<br>
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/200px-Tailwind_CSS_Logo.svg.png)
 3. HTML, CSS
 4. NPM (Node Package Manager)
@@ -40,6 +40,19 @@ I want to share simplest way to run this website using Git Clone.
 ![Step 7](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone7.png)
 - Type `npm run dev`
 ![Step 8](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone8.png)
-- Type `php artisan composer`
+- Open other terminal with same path, then type `php artisan composer`
 ![Step 9](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone9.png)
 - Done, open the link provided
+
+# What's inside my website?
+I can divide my website to **5 main pages**:
+- Introduction
+![Introduction](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/introductionn.png)
+- Academic
+![Academic](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/academicc.png)
+- Project
+![Project](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/projectt.png)
+- Organization
+![Organization](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/organizationn.png)
+- Hobby
+![Hobby](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/hobbyy.png)
