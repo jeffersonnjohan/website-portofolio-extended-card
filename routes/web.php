@@ -43,6 +43,8 @@ Route::get('/project', [ProjectController::class, 'index']);
 
 Route::get('/restaurant', [RestaurantController ::class, 'index']);
 
+Route::get('/restaurant/{id}', [RestaurantController ::class, 'single']);
+
 // Fallback for unrecognize link
 Route::fallback(function () {
     return redirect('/'); 

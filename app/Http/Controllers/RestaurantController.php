@@ -40,4 +40,22 @@ class RestaurantController extends Controller
             "restaurants" => $this->restaurants,
         ]);
     }
+
+    public function single($id){
+
+        $res = [];
+        foreach($this->restaurants as $restaurant){
+            if($restaurant["id"] == $id){
+                $res = $restaurant;
+                break;
+            }
+        }
+        return view('singleRestaurant', [
+            "title" => $res["name"],
+            "headline" => "My Favourite Restaurant at Palembang",
+            "headlineDescription" => "Food is half of my life especially Palembang food. You have to try this, or you will live in regret forever",
+            "image" => "bg6.jpg",
+            "restaurant" => $res,
+        ]);
+    }
 }
