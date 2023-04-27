@@ -1,5 +1,9 @@
 @extends('template.template')
 
+@section('metaDescription')
+    {{ $restaurant["name"] }} restoran di Palembang
+@endsection
+
 @section('content')
 <div class="w-full p-10">
     
