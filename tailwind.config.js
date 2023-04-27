@@ -12,7 +12,10 @@ module.exports = {
         brown1: '#8D7B68',
         brown2: '#A4907C',
         brown3: '#C8B6A6',
-        brown4: '#F1DEC9'
+        brown4: '#F1DEC9',
+        gold: '#FFD700',
+        silver: '#C0C0C0',
+        bronze: '#CD7F32'
       },
       fontFamily: {
         poppins : ['"poppins"', 'sans-serif'],
