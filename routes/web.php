@@ -136,6 +136,15 @@ Route::get('/project', function () {
     ]);
 });
 
+Route::get('/restaurant', function () {
+    return view('restaurant', [
+        "title" => "Restaurant",
+        "headline" => "My Favourite Restaurant at Palembang",
+        "headlineDescription" => "Food is half of my life especially Palembang food. You have to try this, or you will live in regret forever",
+        "image" => "bg6.jpg"
+    ]);
+});
+
 // Fallback for unrecognize link
 Route::fallback(function () {
     return redirect('/'); 
