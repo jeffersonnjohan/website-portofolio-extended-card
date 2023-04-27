@@ -17,16 +17,30 @@ class RestaurantController extends Controller
         ],
         [
             'id' => 2,
+            'name' => 'Bakmie Sin Chiau Lok Palembang',
+            'address' => 'Jl. Mesjid Lama No.144, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30122',
+            'image' => 'terangbulan.jpg',
+            'quality' => 'gold'
+        ],
+        [
+            'id' => 3,
             'name' => 'Bakmie Aloy Palembang',
             'address' => 'Jl. Dempo Luar No.410A, 15 Ilir, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30111',
             'image' => 'aloi.jpg',
             'quality' => 'silver'
         ],
         [
-            'id' => 3,
+            'id' => 4,
             'name' => 'Pempek Vico Palembang',
-            'address' => 'Jl. Letda Abdul Rozak No.23, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114',
+            'address' => 'Jl. Jend. Sudirman No.,.122, Sekip Jaya, Kec. Kemuning, Kota Palembang, Sumatera Selatan 30128',
             'image' => 'vico.jpg',
+            'quality' => 'bronze',
+        ],
+        [
+            'id' => 5,
+            'name' => 'Bakmie Ferry Palembang',
+            'address' => 'Jl. Bangau No.165c, 9 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114',
+            'image' => 'ferry.jpg',
             'quality' => 'bronze',
         ],
     ];
