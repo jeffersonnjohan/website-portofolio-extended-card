@@ -26,20 +26,18 @@ class RestaurantController extends Controller
             'id' => 3,
             'name' => 'Pempek Vico Palembang',
             'address' => 'Jl. Letda Abdul Rozak No.23, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114',
-            'image' => 'lomie.jpg',
+            'image' => 'vico.jpg',
             'quality' => 'bronze',
         ],
     ];
 
     public function index(){
-        global $restaurants;
-
         return view('restaurant', [
             "title" => "Restaurant",
             "headline" => "My Favourite Restaurant at Palembang",
             "headlineDescription" => "Food is half of my life especially Palembang food. You have to try this, or you will live in regret forever",
             "image" => "bg6.jpg",
-            "restaurants" => $restaurants,
+            "restaurants" => $this->restaurants,
         ]);
     }
 }
