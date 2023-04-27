@@ -42,11 +42,12 @@
         
         <div class="w-[20%] h-full border-r-2 border-brown1">
             <ul class="h-full">
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/" class="hover:scale-105 hover:text-white"> Introduction </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/academic" class="hover:scale-105 hover:text-white"> Academic </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/project" class="hover:scale-105 hover:text-white"> Project </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/organization" class="hover:scale-105 hover:text-white"> Organization </a></li>
-                <li class="w-full h-1/5 flex pl-5 items-center"><a href="/hobby" class="hover:scale-105 hover:text-white"> Hobby </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/" class="hover:scale-105 hover:text-white"> Introduction </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/academic" class="hover:scale-105 hover:text-white"> Academic </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/project" class="hover:scale-105 hover:text-white"> Project </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/organization" class="hover:scale-105 hover:text-white"> Organization </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/hobby" class="hover:scale-105 hover:text-white"> Hobby </a></li>
+                <li class="w-full h-1/6 flex pl-5 items-center"><a href="/restaurant" class="hover:scale-105 hover:text-white"> Restaurant </a></li>
             </ul>
         </div>
         <div class="w-[25%] h-full">
