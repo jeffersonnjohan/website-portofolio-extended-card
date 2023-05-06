@@ -46,7 +46,7 @@ I want to share simplest way to run this website using Git Clone.
 
 # What's inside my website?
 Below is my website demo:
-
+![GIF Demo](https://github.com/jeffersonnjohan/website-portofolio-extended-card/blob/main/public/gif/web.gif)
 
 I can divide my website to **6 main pages**:
 - Introduction
