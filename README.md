@@ -73,8 +73,8 @@ I can divide my website to **6 main pages**:
 - Restaurant
 > This page is my favourite restaurant list. There is 3 categories for my restaurant pages: **Gold**, **Silver**, and **Bronze**.
 
-![Restaurant](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/restaurant.jpg)
+![Restaurant](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/restaurant.png)
 
  For each restaurant, there is detail page explaining the complete information of the restaurant. For the example:
 
-![Detail Page](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/detailPage.jpg)
+![Detail Page](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/detailPage.png)
