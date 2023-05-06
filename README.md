@@ -25,23 +25,23 @@ I want to share simplest way to run this website using Git Clone.
 > Remember, make sure your computer already installed **Git** and already **configured your Git & GitHub**
 
  - First, you need to my project's url for cloning
- ![Step 1](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone1.png)
-- Open your command prompt, cd your directory to the directory you want to run this project. Then type `git clone https://github.com/jeffersonnjohan/website-portofolio-laravel.git`
-![Step 2](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone2.png)
-- Type `cd website-portofolio-laravel`
-![Step 3](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone3.png)
+ ![Step 1](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone1.png)
+- Open your command prompt, cd your directory to the directory you want to run this project. Then type `git clone https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card.git`
+![Step 2](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone2.png)
+- Type `cd website-portofolio-laravel-extended-card`
+![Step 3](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone3.png)
 - Type `composer install`
-![Step 4](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone4.png)
+![Step 4](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone4.png)
 - Type `copy .env.example .env`
-![Step 5](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone5.png)
+![Step 5](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone5.png)
 - Type `php artisan key:generate`
-![Step 6](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone6.png)
+![Step 6](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone6.png)
 - Type `npm install`
-![Step 7](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone7.png)
+![Step 7](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone7.png)
 - Type `npm run dev`
-![Step 8](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone8.png)
+![Step 8](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone8.png)
 - Open other terminal with same path, then type `php artisan composer`
-![Step 9](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/clone9.png)
+![Step 9](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/clone9.png)
 - Done, open the link provided
 
 # What's inside my website?
@@ -52,29 +52,29 @@ I can divide my website to **6 main pages**:
 - Introduction
 >This page contains my biodata, motto, and my short journey. You can navigate to all pages with header or footer.
 
-![Introduction](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/introductionn.png)
+![Introduction](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/introductionn.png)
 - Academic
 > In this page, we can navigate to **4 sub pages**, Primary School Pages, Junior High School Pages, Senior High School Pages, and University Pages. Each of pages contain my story and journey until now. I use Route::prefix() in web.php to make it possible.
 
-![Academic](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/academicc.png)
+![Academic](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/academicc.png)
 - Project
 > This page contains my 2 biggest project. JualanYuk and Eyemorse. This page also link to my Github page.
 
-![Project](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/projectt.png)
+![Project](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/projectt.png)
 - Organization
 > From this page, you can access **4 sub pages** of my experience in organization and volunteer. I tell my story and my role in each of pages.
 
-![Organization](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/organizationn.png)
+![Organization](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/organizationn.png)
 - Hobby
 > This page is a kind of landing page, which we can navigate directly to section we want by clicking the menu on the top of page. There is **3 section** on this page: Chess, Badminton, and Cooking.
  
-![Hobby](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/hobbyy.png)
+![Hobby](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/hobbyy.png)
 
 - Restaurant
 > This page is my favourite restaurant list. There is 3 categories for my restaurant pages: **Gold**, **Silver**, and **Bronze**.
 
-![Restaurant](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/restaurant.png)
+![Restaurant](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/restaurant.png)
 
  For each restaurant, there is detail page explaining the complete information of the restaurant. For the example:
 
-![Detail Page](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/detailPage.png)
+![Detail Page](https://github.com/jeffersonnjohan/website-portofolio-laravel-extended-card/blob/main/public/img/detailPage.png)
