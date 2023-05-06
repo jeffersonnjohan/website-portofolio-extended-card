@@ -1,6 +1,6 @@
 # Jefferson's Portfolio Website
 
-Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my first self learning project for Web Programming course. My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
+Hi fellas! My name is Jefferson Johan. Now i'm at 5th Cawu Computer Science Bina Nusantara x PPTI BCA. This is my improvement of last self learning Web Programing Course.  My lecturer is **Anderies, B.Eng., S.Kom., M.Kom.** Hope you all can enjoy my simple website. Below is my data:
 
 > NIM  : 2502041224
 >Class : PPTI 12
@@ -45,7 +45,10 @@ I want to share simplest way to run this website using Git Clone.
 - Done, open the link provided
 
 # What's inside my website?
-I can divide my website to **5 main pages**:
+Below is my website demo:
+
+
+I can divide my website to **6 main pages**:
 - Introduction
 >This page contains my biodata, motto, and my short journey. You can navigate to all pages with header or footer.
 
@@ -66,3 +69,12 @@ I can divide my website to **5 main pages**:
 > This page is a kind of landing page, which we can navigate directly to section we want by clicking the menu on the top of page. There is **3 section** on this page: Chess, Badminton, and Cooking.
  
 ![Hobby](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/hobbyy.png)
+
+- Restaurant
+> This page is my favourite restaurant list. There is 3 categories for my restaurant pages: **Gold**, **Silver**, and **Bronze**.
+
+![Restaurant](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/restaurant.png)
+
+ For each restaurant, there is detail page explaining the complete information of the restaurant. For the example:
+
+![Detail Page](https://github.com/jeffersonnjohan/website-portofolio-laravel/blob/main/public/img/detailPage.png)
